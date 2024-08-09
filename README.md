@@ -28,7 +28,7 @@ This Package Manager is a Python-based tool designed to mimic the basic function
 
 To create a new `package.json` file for your project:
 
-python `main.py` init
+- python `main.py` init
 
 You will be prompted to enter project details such as name, version, description, author, and license.
 
@@ -36,11 +36,11 @@ You will be prompted to enter project details such as name, version, description
 
 To add a new dependency to your project:
 
-python main.py add <package_name>[@<version>]
+- python main.py add <package_name>[@<version>]
 
 Example: 
 
-python main.py add express@4.17.1
+- python main.py add express@4.17.1
 
 If no version is specified, it will default to "latest".
 
@@ -48,7 +48,7 @@ If no version is specified, it will default to "latest".
 
 To install all dependencies listed in your `package.json` file:
 
-python main.py install 
+- python main.py install 
 
 This command will download and install all specified packages and their dependencies into a `node_modules` directory.
 
