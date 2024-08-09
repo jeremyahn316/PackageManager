@@ -1,0 +1,18 @@
+{
+    "models": [
+      {
+        "title": "Ollama",
+        "provider": "ollama",
+        "model": "AUTODETECT"
+      }
+    ],
+    "tabAutocompleteModel": {
+      "title": "Starcoder 2 3b",
+      "provider": "ollama",
+      "model": "starcoder2:3b"
+    },
+    "embeddingsProvider": {
+      "provider": "ollama",
+      "model": "nomic-embed-text"
+    }
+  }
